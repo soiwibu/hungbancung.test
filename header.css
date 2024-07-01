@@ -1,0 +1,48 @@
+.header { 
+    
+    position: fixed; 
+    top: 0px; 
+    left: 0px; 
+    right: 0px; 
+
+    height: 50px; 
+    padding: 10px; 
+
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+    background-color: black; 
+
+    color: white; 
+
+
+}
+
+#logo { 
+    height: 100%; 
+}
+
+.nav-elements { 
+    width: 80px; 
+    text-decoration: none; 
+    font-family: Arial; 
+    color: white; 
+
+    display: grid; 
+    justify-content: center;
+
+}
+
+.chibi-pic { 
+    height: 50px; 
+    align-items: end;
+    margin-left: 20px; 
+}
+
+#navbar { 
+    margin-left: 30px; 
+    display: grid; 
+    grid-template-columns: 100px 100px 100px 120px 100px;
+}

@@ -1,0 +1,121 @@
+html {
+    background-color: black;
+    height: 5000px; 
+    padding: 0px;
+    margin: 0px; 
+}
+/*
+.content { 
+    margin-top: 70px; 
+    padding + margin top của bên 
+    header là 50px + 10px = 60px  
+}*/
+.main-picture { 
+    display: grid; 
+    grid-template-columns: 1fr; 
+}
+
+.text { 
+    font-family: Arial; 
+
+    color: white; 
+    font-size: 150px; 
+
+    width: 600px; 
+}
+
+.learn-more { 
+    background-color: rgb(1, 113, 227); 
+    color: white; 
+    border: none; 
+    border-radius: 50px; 
+
+    padding-top: 15px; 
+    padding-bottom: 15px; 
+    padding-left: 20px; 
+    padding-right: 20px; 
+
+    font-size: 20px; 
+    cursor: pointer; 
+    text-decoration-line: none;
+    font-family: Arial; 
+}
+.learn-more:hover { 
+    background-color: rgb(2, 119, 237); 
+}
+
+
+.on-the-pic { 
+    position: absolute; 
+    top: 800px; 
+    right: 43%; 
+}
+
+
+.large-opening-picture { 
+    width: 100%; 
+
+    display: flex; 
+    flex-direction: row;
+
+    opacity: 100%; 
+
+}
+
+.piano-demo {     
+    display: grid; 
+    grid-template-columns: 1fr 400px;
+    align-items: center;
+
+    padding-right: 200px; 
+
+    background-color: white; 
+}
+.piano-demo-title { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;    
+}
+.piano-playing-demo { 
+    width: 100%; 
+    height: 710px; 
+
+    border: none;
+
+    padding: 20px; 
+}
+.learn-more-normal { 
+    background-color: rgb(1, 113, 227); 
+    color: white; 
+    border: none; 
+    border-radius: 50px; 
+
+    padding-top: 15px; 
+    padding-bottom: 15px; 
+    padding-left: 20px; 
+    padding-right: 20px; 
+
+    font-size: 20px; 
+    cursor: pointer; 
+    text-decoration-line: none;
+    font-family: Arial; 
+}
+.learn-more-normal:hover { 
+    background-color: rgb(2, 119, 237);
+}
+
+
+.videography-demo { 
+    display: grid; 
+    grid-template-columns: 800px 1fr;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 60px;
+    padding-left: 60px; 
+    padding-bottom: 60px; 
+}
+.videography-davinci-demo { 
+    width: 100%; 
+}
+

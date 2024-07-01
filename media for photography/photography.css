@@ -1,0 +1,46 @@
+html {
+    margin-top: 60px; 
+}
+
+.body { 
+    display: grid; 
+    grid-template-columns: 300px auto;
+    margin-top: 10px; 
+}
+.left-content{
+    top: 50px; 
+    left: 0px; 
+    background-color: pink;  
+    height: 1000px; 
+    width: 300px;
+}
+.right-content { 
+    width: auto;    
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap; 
+    padding-left: 20px; 
+}
+
+.event { 
+    width: auto; 
+}
+
+.picture {
+    width: 200px; 
+}
+.picture-container { 
+    width: auto; 
+}
+.picture-grid {
+    
+    display: inline-grid; 
+    grid-template-columns: auto auto auto auto auto auto auto;
+    column-gap: 5px; 
+    row-gap: 1px; 
+    
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap; 
+    
+}
